@@ -37,7 +37,7 @@ DbgAssert (
 {
     DbgPrint (D_ERROR, (CHAR8 *)"%EASSERT FAILED: %a(%d): %a%N\n", FileName, LineNo, Description);
 
-    BREAKPOINT();
+    BREAKPOINT()
     return 0;
 }
 
